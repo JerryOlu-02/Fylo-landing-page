@@ -27,17 +27,18 @@ span {
 #header-container {
     background-color: #fff;
     padding: 5%;
+    width: 100%;
 }
 
 nav {
     display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    align-items: center;
 }
 
 .navbar-items a {
@@ -47,7 +48,7 @@ ul {
 
 li {
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 .header-body {
@@ -216,13 +217,7 @@ li {
 @media (max-width: 1028px) {
 
     #header-container {
-        padding: 10%;
-    }
-
-    li {
-        margin-left: 10px;
-        margin-right: 0;
-        margin-top: 5px;
+        padding: 5%;
     }
 
     .header-body {
