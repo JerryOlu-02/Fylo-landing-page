@@ -217,8 +217,8 @@ li {
 
 @media (max-width: 1028px) {
 
-    .header-logo img{
-        width: 25%;
+    .header-logo img {
+        width: 15%;
     }
 
     #header-container {
