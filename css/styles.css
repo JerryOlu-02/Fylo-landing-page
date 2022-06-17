@@ -217,6 +217,10 @@ li {
 
 @media (max-width: 1028px) {
 
+    .header-logo img{
+        width: 25%;
+    }
+
     #header-container {
         padding: 5%;
     }
